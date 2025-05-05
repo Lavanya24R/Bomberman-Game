@@ -1,0 +1,52 @@
+# === Build output ===
+build/
+bin/
+obj/
+
+# === OS-generated files ===
+.DS_Store
+Thumbs.db
+
+# === IDE and editor settings ===
+.vscode/
+.idea/
+*.sln
+*.vcxproj*
+*.user
+
+# === CMake ===
+CMakeCache.txt
+CMakeFiles/
+cmake-build-*/
+
+# === Binaries ===
+*.exe
+*.dll
+*.apk
+*.a
+*.lib
+*.log
+
+# === Engine directory (if bundled separately) ===
+cocos2d/
+
+
+# Ignore Visual Studio build files
+*.ipch
+*.VC.db
+*.sdf
+*.opensdf
+*.pch
+*.obj
+*.log
+
+# Ignore VS folders
+.vs/
+Debug/
+Release/
+*.exe
+*.dll
+*.lib
+*.user
+*.cache
+*.db
